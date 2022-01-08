@@ -1,0 +1,53 @@
+[33mcommit 5cba0d12a46d63712fd433ee4bbec6a843c18dba[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Juan Mario Parra <jmparra1993@gmail.com>
+Date:   Fri Dec 10 21:53:18 2021 -0500
+
+    usando open icons
+
+[33mcommit 307c90c1cc7cb42fc45bac73b04d00ca06cba158[m
+Author: Juan Mario Parra <jmparra1993@gmail.com>
+Date:   Wed Dec 8 17:41:25 2021 -0500
+
+    Agregamos Navegabilidad con Bootstrap
+
+[33mcommit 89e989f7838834ac9926e96f0f6c02ff8012b467[m
+Author: Juan Mario Parra <jmparra1993@gmail.com>
+Date:   Tue Dec 7 17:41:30 2021 -0500
+
+    Utilizando Flex
+
+[33mcommit 8994d9d74d006bc92ac6a6967abd35e59eb93e44[m
+Author: Juan Mario Parra <jmparra1993@gmail.com>
+Date:   Mon Dec 6 19:13:29 2021 -0500
+
+    Incluimos Bootstrap
+
+[33mcommit 4dee45dee757a6c64645acc5d2bb5805f424841d[m
+Author: Juan Mario Parra <jmparra1993@gmail.com>
+Date:   Mon Dec 6 12:02:52 2021 -0500
+
+    Agregamos index.html
+
+[33mcommit fcdac5cb4d1c8a873e4c2122473a0dc5d264721f[m
+Author: Juan Mario Parra <jmparra1993@gmail.com>
+Date:   Mon Dec 6 11:48:31 2021 -0500
+
+    Incluimos Lite server
+
+[33mcommit 02b9791073b928663ef25ae4a75f049a23658578[m
+Author: Juan Mario Parra <jmparra1993@gmail.com>
+Date:   Mon Dec 6 10:49:19 2021 -0500
+
+    definicion del package.json
+
+[33mcommit 63e9d12d0ce3c28ffaed6e6aab865f862daebda3[m
+Author: Juan Mario Parra <jmparra1993@gmail.com>
+Date:   Mon Dec 6 10:10:23 2021 -0500
+
+    creacion inicial del proyecto con un read
+
+[33mcommit 13e1be2b08476bd8ca10a16383bd945623cbf544[m
+Author: JuanParraIV <jmparra1993@gmail.com>
+Date:   Mon Dec 6 09:53:35 2021 -0500
+
+    Initial commit

@@ -2,6 +2,7 @@
     background-color: yellow;
     color: black;
     margin-top: 50px;
+    
 }
 
 .footer {
@@ -12,8 +13,8 @@
 }
 
 .card-hotel{
-    flex: 1 150px;
-    padding: 2px 5px 2px 5px;
+    flex: 1 200px;
+    padding: 2px 5px px 5px;
     margin: 10px;
     
     

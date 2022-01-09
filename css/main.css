@@ -1,7 +1,14 @@
+.navbar-brand{
+    padding-left: 20px;
+}
+
 .jumbotron{
     background-color: yellow;
     color: black;
     margin-top: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
 }
 
@@ -30,4 +37,8 @@
 }
 .add-btn-cardhotel{
     padding-right: 5px;
+}
+
+.tab-content{
+    padding-top:10px;
 }

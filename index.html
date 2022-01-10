@@ -116,7 +116,7 @@
                     <p class="card-text">Hotel ubicado en pleno centro de Rio de Janeiro a pocos metros de la playa</p>
                 </div>
                 <div><button class="btn btn-primary btn-reserva"><span class="oi oi-plus add-btn-cardhotel"></span>Reservar</button></div>
-            </div>   
+            </div>
             <div class="card card-hotel d-flex flex-column justify-content-between">
                 <div class="card-body">
                     <h5 class="card-title">Hotel La paz</h5>
@@ -143,14 +143,41 @@
                     <h6 class="card-subtitle text-muted">Venezuela</h6>
                     <img class="card-img-top" src="images/caracas.jpg " alt="hotel img">
                     <p class="card-text"> Hotel ubicado en pleno centro </p>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
                 </div>
                 <div><button class="btn btn-primary btn-reserva"><span class="oi oi-plus add-btn-cardhotel"></span>Reservar</button></div>
                 
             </div>
+            <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Contacto en el Hotel</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                          <label for="recipient-name" class="col-form-label">E-Mail:</label>
+                          <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                          <label for="message-text" class="col-form-label">Message:</label>
+                          <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Send message</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
         
     </div>
     
-    <footer class="footer">  
+    <footer class="footer">
             <div class="row">
             <div class="col-sm-4 d-flex flex-column">
                 <a href="https://www.facebook.com">Facebook</a>
@@ -161,9 +188,9 @@
             <div class="col-sm-4">
                 <address>
                     <h3>Oficina Central</h3>
-                    <p><span class="oi oi-home footer-address-icon"></span>Valledupar, Cesar, Colombia</p> 
+                    <p><span class="oi oi-home footer-address-icon"></span>Valledupar, Cesar, Colombia</p>
                     <p><span class="oi oi-phone footer-address-icon"></span>+573502053590</p>
-                    <p><span class="oi oi-inbox footer-address-icon"></span>jmparra1993@gmail.com</p>  
+                    <p><span class="oi oi-inbox footer-address-icon"></span>jmparra1993@gmail.com</p>
                 </address>
             </div>
             <div class="col-sm-4 d-flex flex-column align-items-end">

@@ -9,6 +9,7 @@
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="node_modules\open-iconic\font\css\open-iconic-bootstrap.min.css" rel="stylesheet">
+    
 
     <title>Guia Hoteles</title>
 </head>
@@ -91,7 +92,7 @@
             </div>
             <div class="card card-hotel d-flex flex-column justify-content-between">
                 <div class="card-body">
-                    <h5 class="card-title">Hotel Buenos Aires</h5>
+                    <h5 class="card-title" data-bs-toggle="tooltip" data-bs-placement="top" title="Las primeras reservas cuentan con clases de tango gratis!">Hotel Buenos Aires</h5>
                     <h6 class="card-subtitle text-muted">Argentina</h6>
                     <img class="card-img-top" src="images/buenosaires.jpg" alt="hotel img">
                     <p class="card-text">hotel ubicado en pleno centro</p>
@@ -145,7 +146,8 @@
                     <p class="card-text"> Hotel ubicado en pleno centro </p>
                     <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
                 </div>
-                <div><button class="btn btn-primary btn-reserva"><span class="oi oi-plus add-btn-cardhotel"></span>Reservar</button></div>
+                <div><button class="btn btn-primary btn-reserva" data-bs-toggle="popover" data-bs-content="Consulta las promociones vigentes">
+                    <span class="oi oi-plus add-btn-cardhotel"></span>Reservar</button></div>
                 
             </div>
             <div class="modal fade" id="contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -205,7 +207,24 @@
     <!-- JQuery first, then popper.js, then Bootstraps JS-->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+   var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+
+</script>
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+      return new bootstrap.Popover(popoverTriggerEl)
+    })
+    </script>
+
+
 </body>
 
 </html>

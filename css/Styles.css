@@ -1,0 +1,36 @@
+.navbar-brand {
+  padding-left: 20px; }
+
+.jumbotron {
+  background-color: #dede00;
+  color: black;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.footer {
+  padding: 10px 10px 0 10px;
+  background-color: #dede00;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.card-hotel {
+  flex: 1 200px;
+  padding: 2px 5px 0px 5px;
+  margin-top: 10px;
+  margin-bottom: 0px; }
+
+.btn-reserva {
+  width: 100%; }
+
+.footer-address-icon {
+  padding-right: 10px; }
+
+.add-btn-cardhotel {
+  padding-right: 10px; }
+
+.tab-content {
+  padding-top: 10px; }

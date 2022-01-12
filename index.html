@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
        <!-- Bootstrap CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/Styles.css" rel="stylesheet">
     <link href="node_modules\open-iconic\font\css\open-iconic-bootstrap.min.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.min.js">
 
     <title>Guia Hoteles</title>
 </head>
@@ -169,7 +169,7 @@
                     <h6 class="card-subtitle text-muted">Venezuela</h6>
                     <img class="card-img-top" src="images/caracas.jpg " alt="hotel img">
                     <p class="card-text"> Hotel ubicado en pleno centro </p>
-                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto">Contacto</button>
+                    <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#contacto" id="contactobtn">Contacto</button>
                 </div>
                 <div><button class="btn btn-primary btn-reserva" data-bs-toggle="popover" data-bs-content="Consulta las promociones vigentes">
                     <span class="oi oi-plus add-btn-cardhotel"></span>Reservar</button></div>
@@ -247,6 +247,30 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
     var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
       return new bootstrap.Popover(popoverTriggerEl)
     })
+    </script>
+    <script>
+        /* using javascript */
+        var myModalEl = document.getElementById('contacto')
+        myModalEl.addEventListener('shown.bs.modal', function (event) {
+            console.log('el modal se esta mostro');
+         
+            
+})
+        /* Using JQueryxºze */
+        $('#contacto').on('show.bs.modal', function (e) {
+            console.log('el modal contacto se mostrando');
+            $('#contactobtn').removeClass('btn-outline-success');
+            $('#contactobtn').addClass('btn-primary');
+            $('#contactobtn').prop('disabled', true);
+
+        });
+        $('#contacto').on('hide.bs.modal', function (e) {
+            console.log('el modal contacto se oculta');
+        });
+        $('#contacto').on('hidden.bs.modal', function (e) {
+            console.log('el modal contacto se oculto');
+            $('#contactobtn').prop('disabled', false);
+        });
     </script>
 
 
